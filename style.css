@@ -1,0 +1,48 @@
+#header{
+    background-color: rgb(225, 203, 176);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: "Hubballi", sans-serif;      
+}
+#nameAndTitle{
+    background-color: white;
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+#nameAndTitle h1, h2{
+    margin: 0;
+}
+h1, h2, h3{
+    text-transform: uppercase;
+}
+#contact{
+    list-style-type: none;
+    display: grid;
+    grid-auto-flow:dense;
+}
+
+#contact img {
+    color: rgb(225, 203, 176);
+    width: 20px;
+    margin-right: 10px;
+}
+#container {
+    display: grid;
+    grid-template-columns: 30% auto;
+    grid-column-gap: 20px;
+}
+#sidebar, #content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.card h3 {
+    font-family: "Hubballi", sans-serif;   
+}
+.card {
+    font-family: "Montserrat";
+    border: 1px solid rgb(225, 203, 176);
+    border-radius: 15px;
+    padding: 20px;
+}
